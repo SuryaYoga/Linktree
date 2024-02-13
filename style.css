@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ff0a00;    
+    height: 100vh;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.profile {
+    display: flex;
+    felx-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile>img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #000000;
+    border-radius: 100%;
+}
+
+.profile>p {
+    font-size: 1.8em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: black;
+    text-transform: capitaliz;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.link>a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    border: 3px solid #000000;
+    background-color: #eaeaea;
+    border-radius: 7px;
+    margin: 5px 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.link>a:hover {
+    background-color: azure;
+}
+
+.thanks {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.thanks>a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    border: 1px solid blue;
+    background-color: red;
+    border-radius: 7px;
+    margin: 1px 3px;
+    padding: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer>i {
+    color: blue;
+    font-size: 20px;
+}
+
+/* thanks */
+
+.img {
+    width: 500px;
+    margin: 0 auto;
+    image-position: center;
+    image-size: cover;
+    image-attachment: fixed;
+}
+
+.thank {
+    text-align: center;
+    font-size: 30px;
+    color: pink;
+    margin-top: 50px;
+}
+
+.thank:hover {
+    color: blue;
+}
+
+.bg {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #ff0a00;    
+    height: 100vh;
+    background-image: url("logo.gif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.date {
+    width: 100%;
+    padding: center;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+}
+
+.date>p {
+    margin-top: 10px;
+}
+
+.date>input {
+    margin: 10px;
+    font-size: 50px;
+}
+
+.date>button {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px 3px;
+    padding: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.date>button:hover {
+    background-color: azure;
+}
