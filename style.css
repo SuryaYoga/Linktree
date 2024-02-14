@@ -19,8 +19,9 @@ html {
 }
 
 .profile {
+    margin-right: 20px;
     display: flex;
-    felx-direction: column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
